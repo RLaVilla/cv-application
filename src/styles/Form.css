@@ -1,0 +1,117 @@
+.formDiv {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+html {
+  padding: 0 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  width: auto;
+
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.textAreaDiv {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dateDiv {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.employmentPeriodDiv {
+  display: flex;
+  align-items: left;
+  grid-column: 1 / -1;
+  gap: 50px;
+}
+
+.headerFlexDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerFlexDiv img {
+  width: 29px;
+}
+
+textarea {
+  padding: 5px;
+}
+
+label {
+  margin: auto 0;
+}
+
+span {
+  padding: 0 40px;
+}
+
+.checkbox div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.checkbox div p {
+  text-align: center;
+}
+
+.submitButton {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  border: 1px solid grey;
+  transition: background-color 0.2s ease-out;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 14px 0;
+}
